@@ -21,6 +21,8 @@ namespace Controller
         public IActionResult Index()
         {
             _logger.LogInformation("Esto tambien debe ir");
+            _logger.LogInformation("Index1");
+            _logger.LogInformation("Index2");
             return View();
         }
 
