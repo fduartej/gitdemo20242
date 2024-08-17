@@ -20,6 +20,7 @@ namespace Controller
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Esto tambien debe ir");
             return View();
         }
 
