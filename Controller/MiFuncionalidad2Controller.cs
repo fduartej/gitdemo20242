@@ -20,6 +20,8 @@ namespace Controller
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Index1");
+            _logger.LogInformation("Index2");
             return View();
         }
 
