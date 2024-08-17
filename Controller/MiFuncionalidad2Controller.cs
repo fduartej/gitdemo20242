@@ -21,10 +21,7 @@ namespace Controller
         public IActionResult Index()
         {
             _logger.LogInformation("Esto tambien debe ir");
-            _logger.LogInformation("Index1");
-            _logger.LogInformation("Index2");
-            _logger.LogInformation("Index3");
-            return View();
+           return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
